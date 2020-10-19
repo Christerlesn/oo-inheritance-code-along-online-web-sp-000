@@ -6,4 +6,12 @@ class Vehicle
     @wheel_size = wheel_size
     @number = number
   end
+
+  def go
+    return 'vrrrrrrrooom!'
+  end
+
+  def fill_up_tank
+    return 'filling up!'
+  end
 end
